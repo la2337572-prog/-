@@ -19,11 +19,11 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Install Gradle 9.3.1
+    - name: Install Gradle 8.5
       run: |
-        sudo wget https://services.gradle.org/distributions/gradle-9.3.1-bin.zip -P /tmp
-        sudo unzip -d /opt/gradle /tmp/gradle-9.3.1-bin.zip
-        echo "/opt/gradle/gradle-9.3.1/bin" >> $GITHUB_PATH
+        sudo wget https://services.gradle.org/distributions/gradle-8.5-bin.zip -P /tmp
+        sudo unzip -d /opt/gradle /tmp/gradle-8.5-bin.zip
+        echo "/opt/gradle/gradle-8.5/bin" >> $GITHUB_PATH
 
     - name: Build Debug APK
       run: gradle assembleDebug --stacktrace
