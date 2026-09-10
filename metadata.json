@@ -1,0 +1,6 @@
+{
+  "name": "Maayed Motor",
+  "description": "معيض موتور - تطبيق متكامل لبيع الدبابات، قطع الغيار، ومعدات الحماية، مع كتالوج متقدم وسلة الشراء وطلب القطع ولوحة الإدارة",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
